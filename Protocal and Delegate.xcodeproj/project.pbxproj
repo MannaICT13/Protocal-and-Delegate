@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEB091B22108E058004AC04E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB091B12108E058004AC04E /* AppDelegate.swift */; };
+		CEB091B42108E058004AC04E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB091B32108E058004AC04E /* ViewController.swift */; };
+		CEB091B72108E058004AC04E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB091B52108E058004AC04E /* Main.storyboard */; };
+		CEB091B92108E059004AC04E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB091B82108E059004AC04E /* Assets.xcassets */; };
+		CEB091BC2108E059004AC04E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB091BA2108E059004AC04E /* LaunchScreen.storyboard */; };
+		CEB091C72108E059004AC04E /* Protocal_and_DelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB091C62108E059004AC04E /* Protocal_and_DelegateTests.swift */; };
+		CEB091D22108E059004AC04E /* Protocal_and_DelegateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB091D12108E059004AC04E /* Protocal_and_DelegateUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEB091C32108E059004AC04E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEB091A62108E058004AC04E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEB091AD2108E058004AC04E;
+			remoteInfo = "Protocal and Delegate";
+		};
+		CEB091CE2108E059004AC04E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEB091A62108E058004AC04E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEB091AD2108E058004AC04E;
+			remoteInfo = "Protocal and Delegate";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEB091AE2108E058004AC04E /* Protocal and Delegate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Protocal and Delegate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB091B12108E058004AC04E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEB091B32108E058004AC04E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEB091B62108E058004AC04E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEB091B82108E059004AC04E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEB091BB2108E059004AC04E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEB091BD2108E059004AC04E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEB091C22108E059004AC04E /* Protocal and DelegateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Protocal and DelegateTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB091C62108E059004AC04E /* Protocal_and_DelegateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocal_and_DelegateTests.swift; sourceTree = "<group>"; };
+		CEB091C82108E059004AC04E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEB091CD2108E059004AC04E /* Protocal and DelegateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Protocal and DelegateUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB091D12108E059004AC04E /* Protocal_and_DelegateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocal_and_DelegateUITests.swift; sourceTree = "<group>"; };
+		CEB091D32108E059004AC04E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEB091AB2108E058004AC04E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB091BF2108E059004AC04E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB091CA2108E059004AC04E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEB091A52108E058004AC04E = {
+			isa = PBXGroup;
+			children = (
+				CEB091B02108E058004AC04E /* Protocal and Delegate */,
+				CEB091C52108E059004AC04E /* Protocal and DelegateTests */,
+				CEB091D02108E059004AC04E /* Protocal and DelegateUITests */,
+				CEB091AF2108E058004AC04E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEB091AF2108E058004AC04E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEB091AE2108E058004AC04E /* Protocal and Delegate.app */,
+				CEB091C22108E059004AC04E /* Protocal and DelegateTests.xctest */,
+				CEB091CD2108E059004AC04E /* Protocal and DelegateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEB091B02108E058004AC04E /* Protocal and Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				CEB091B12108E058004AC04E /* AppDelegate.swift */,
+				CEB091B32108E058004AC04E /* ViewController.swift */,
+				CEB091B52108E058004AC04E /* Main.storyboard */,
+				CEB091B82108E059004AC04E /* Assets.xcassets */,
+				CEB091BA2108E059004AC04E /* LaunchScreen.storyboard */,
+				CEB091BD2108E059004AC04E /* Info.plist */,
+			);
+			path = "Protocal and Delegate";
+			sourceTree = "<group>";
+		};
+		CEB091C52108E059004AC04E /* Protocal and DelegateTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEB091C62108E059004AC04E /* Protocal_and_DelegateTests.swift */,
+				CEB091C82108E059004AC04E /* Info.plist */,
+			);
+			path = "Protocal and DelegateTests";
+			sourceTree = "<group>";
+		};
+		CEB091D02108E059004AC04E /* Protocal and DelegateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEB091D12108E059004AC04E /* Protocal_and_DelegateUITests.swift */,
+				CEB091D32108E059004AC04E /* Info.plist */,
+			);
+			path = "Protocal and DelegateUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEB091AD2108E058004AC04E /* Protocal and Delegate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEB091D62108E059004AC04E /* Build configuration list for PBXNativeTarget "Protocal and Delegate" */;
+			buildPhases = (
+				CEB091AA2108E058004AC04E /* Sources */,
+				CEB091AB2108E058004AC04E /* Frameworks */,
+				CEB091AC2108E058004AC04E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Protocal and Delegate";
+			productName = "Protocal and Delegate";
+			productReference = CEB091AE2108E058004AC04E /* Protocal and Delegate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEB091C12108E059004AC04E /* Protocal and DelegateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEB091D92108E059004AC04E /* Build configuration list for PBXNativeTarget "Protocal and DelegateTests" */;
+			buildPhases = (
+				CEB091BE2108E059004AC04E /* Sources */,
+				CEB091BF2108E059004AC04E /* Frameworks */,
+				CEB091C02108E059004AC04E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEB091C42108E059004AC04E /* PBXTargetDependency */,
+			);
+			name = "Protocal and DelegateTests";
+			productName = "Protocal and DelegateTests";
+			productReference = CEB091C22108E059004AC04E /* Protocal and DelegateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEB091CC2108E059004AC04E /* Protocal and DelegateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEB091DC2108E059004AC04E /* Build configuration list for PBXNativeTarget "Protocal and DelegateUITests" */;
+			buildPhases = (
+				CEB091C92108E059004AC04E /* Sources */,
+				CEB091CA2108E059004AC04E /* Frameworks */,
+				CEB091CB2108E059004AC04E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEB091CF2108E059004AC04E /* PBXTargetDependency */,
+			);
+			name = "Protocal and DelegateUITests";
+			productName = "Protocal and DelegateUITests";
+			productReference = CEB091CD2108E059004AC04E /* Protocal and DelegateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEB091A62108E058004AC04E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = mCubes;
+				TargetAttributes = {
+					CEB091AD2108E058004AC04E = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					CEB091C12108E059004AC04E = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = CEB091AD2108E058004AC04E;
+					};
+					CEB091CC2108E059004AC04E = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = CEB091AD2108E058004AC04E;
+					};
+				};
+			};
+			buildConfigurationList = CEB091A92108E058004AC04E /* Build configuration list for PBXProject "Protocal and Delegate" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEB091A52108E058004AC04E;
+			productRefGroup = CEB091AF2108E058004AC04E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEB091AD2108E058004AC04E /* Protocal and Delegate */,
+				CEB091C12108E059004AC04E /* Protocal and DelegateTests */,
+				CEB091CC2108E059004AC04E /* Protocal and DelegateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEB091AC2108E058004AC04E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB091BC2108E059004AC04E /* LaunchScreen.storyboard in Resources */,
+				CEB091B92108E059004AC04E /* Assets.xcassets in Resources */,
+				CEB091B72108E058004AC04E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB091C02108E059004AC04E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB091CB2108E059004AC04E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEB091AA2108E058004AC04E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB091B42108E058004AC04E /* ViewController.swift in Sources */,
+				CEB091B22108E058004AC04E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB091BE2108E059004AC04E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB091C72108E059004AC04E /* Protocal_and_DelegateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB091C92108E059004AC04E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB091D22108E059004AC04E /* Protocal_and_DelegateUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEB091C42108E059004AC04E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEB091AD2108E058004AC04E /* Protocal and Delegate */;
+			targetProxy = CEB091C32108E059004AC04E /* PBXContainerItemProxy */;
+		};
+		CEB091CF2108E059004AC04E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEB091AD2108E058004AC04E /* Protocal and Delegate */;
+			targetProxy = CEB091CE2108E059004AC04E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEB091B52108E058004AC04E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEB091B62108E058004AC04E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEB091BA2108E059004AC04E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEB091BB2108E059004AC04E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEB091D42108E059004AC04E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEB091D52108E059004AC04E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEB091D72108E059004AC04E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Protocal and Delegate/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.manna.www.Protocal-and-Delegate";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEB091D82108E059004AC04E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Protocal and Delegate/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.manna.www.Protocal-and-Delegate";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEB091DA2108E059004AC04E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Protocal and DelegateTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.manna.www.Protocal-and-DelegateTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Protocal and Delegate.app/Protocal and Delegate";
+			};
+			name = Debug;
+		};
+		CEB091DB2108E059004AC04E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Protocal and DelegateTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.manna.www.Protocal-and-DelegateTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Protocal and Delegate.app/Protocal and Delegate";
+			};
+			name = Release;
+		};
+		CEB091DD2108E059004AC04E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Protocal and DelegateUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.manna.www.Protocal-and-DelegateUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Protocal and Delegate";
+			};
+			name = Debug;
+		};
+		CEB091DE2108E059004AC04E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Protocal and DelegateUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.manna.www.Protocal-and-DelegateUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Protocal and Delegate";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEB091A92108E058004AC04E /* Build configuration list for PBXProject "Protocal and Delegate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB091D42108E059004AC04E /* Debug */,
+				CEB091D52108E059004AC04E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEB091D62108E059004AC04E /* Build configuration list for PBXNativeTarget "Protocal and Delegate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB091D72108E059004AC04E /* Debug */,
+				CEB091D82108E059004AC04E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEB091D92108E059004AC04E /* Build configuration list for PBXNativeTarget "Protocal and DelegateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB091DA2108E059004AC04E /* Debug */,
+				CEB091DB2108E059004AC04E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEB091DC2108E059004AC04E /* Build configuration list for PBXNativeTarget "Protocal and DelegateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB091DD2108E059004AC04E /* Debug */,
+				CEB091DE2108E059004AC04E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEB091A62108E058004AC04E /* Project object */;
+}
