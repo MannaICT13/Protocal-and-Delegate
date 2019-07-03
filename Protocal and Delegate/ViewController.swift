@@ -8,18 +8,44 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController,PassData {
+    
+    
 
+    @IBOutlet weak var lblOne: UILabel!
+    
+    @IBOutlet weak var lblTwo: UILabel!
+    
+    @IBOutlet weak var lblThree: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+   
+    @IBAction func goAction(_ sender: Any) {
+        
+     
+        let secondVC =
+            self.storyboard?.instantiateViewController(withIdentifier: "viewController") as! SecondViewController
+      
+        secondVC.delegate = self;
+        
+        self.navigationController?.pushViewController(secondVC, animated: true)
+        
     }
-
+    
+    func passingdata(name: String, dept: String, mobile: String) {
+        lblOne.text = name;
+        lblTwo.text = dept;
+        lblThree.text = mobile;
+        
+    }
+    
+    
+    
 
 }
 

@@ -14,6 +14,7 @@
 		CEB091BC2108E059004AC04E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB091BA2108E059004AC04E /* LaunchScreen.storyboard */; };
 		CEB091C72108E059004AC04E /* Protocal_and_DelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB091C62108E059004AC04E /* Protocal_and_DelegateTests.swift */; };
 		CEB091D22108E059004AC04E /* Protocal_and_DelegateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB091D12108E059004AC04E /* Protocal_and_DelegateUITests.swift */; };
+		CEB091E02108E1C9004AC04E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB091DF2108E1C9004AC04E /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		CEB091CD2108E059004AC04E /* Protocal and DelegateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Protocal and DelegateUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEB091D12108E059004AC04E /* Protocal_and_DelegateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocal_and_DelegateUITests.swift; sourceTree = "<group>"; };
 		CEB091D32108E059004AC04E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEB091DF2108E1C9004AC04E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				CEB091B12108E058004AC04E /* AppDelegate.swift */,
 				CEB091B32108E058004AC04E /* ViewController.swift */,
+				CEB091DF2108E1C9004AC04E /* SecondViewController.swift */,
 				CEB091B52108E058004AC04E /* Main.storyboard */,
 				CEB091B82108E059004AC04E /* Assets.xcassets */,
 				CEB091BA2108E059004AC04E /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEB091E02108E1C9004AC04E /* SecondViewController.swift in Sources */,
 				CEB091B42108E058004AC04E /* ViewController.swift in Sources */,
 				CEB091B22108E058004AC04E /* AppDelegate.swift in Sources */,
 			);
