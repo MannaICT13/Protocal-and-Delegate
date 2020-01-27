@@ -196,13 +196,16 @@
 				TargetAttributes = {
 					CEB091AD2108E058004AC04E = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1110;
 					};
 					CEB091C12108E059004AC04E = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1110;
 						TestTargetID = CEB091AD2108E058004AC04E;
 					};
 					CEB091CC2108E059004AC04E = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1110;
 						TestTargetID = CEB091AD2108E058004AC04E;
 					};
 				};
@@ -442,7 +445,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.manna.www.Protocal-and-Delegate";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -459,7 +462,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.manna.www.Protocal-and-Delegate";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -478,7 +481,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.manna.www.Protocal-and-DelegateTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Protocal and Delegate.app/Protocal and Delegate";
 			};
@@ -498,7 +501,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.manna.www.Protocal-and-DelegateTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Protocal and Delegate.app/Protocal and Delegate";
 			};
@@ -517,7 +520,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.manna.www.Protocal-and-DelegateUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "Protocal and Delegate";
 			};
@@ -536,7 +539,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.manna.www.Protocal-and-DelegateUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "Protocal and Delegate";
 			};

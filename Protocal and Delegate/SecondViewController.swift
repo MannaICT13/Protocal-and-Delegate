@@ -29,31 +29,43 @@ class SecondViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
     }
 
     
     @IBAction func saveAction(_ sender: Any) {
         
+        if nameTextField.text == ""{
+            
+            showAlert(title: "Error", msg: "Please Enter Name", delegete: self)
+        } else if deptTextField.text == ""{
+                   
+                   showAlert(title: "Error", msg: "Please Enter Dept", delegete: self)
+               }
+        else if mobileTextField.text == ""{
+                   
+                   showAlert(title: "Error", msg: "Please Enter Mobile Number", delegete: self)
+               }
+        else{
+            
         delegate.passingdata(name: nameTextField.text!, dept: deptTextField.text!, mobile: mobileTextField.text!)
-        
+            
+            nameTextField.text?.removeAll()
+            deptTextField.text?.removeAll()
+            mobileTextField.text?.removeAll()
+        }
     }
     
-    @IBAction func backAction(_ sender: Any) {
+    func showAlert(title : String , msg : String , delegete : AnyObject){
         
-        let firstVC = self.storyboard?.instantiateViewController(withIdentifier: "viewController1") as! ViewController
+        let alert = UIAlertView()
         
+        alert.title = title
+        alert.message = msg
+        alert.addButton(withTitle: "OK")
+        alert.delegate = delegate as AnyObject?
+        alert.show()
         
-        self.navigationController?.pushViewController(firstVC, animated: true)
-        
-        
-        
-        
-        
-       
     }
-    
-    
     
     
     
