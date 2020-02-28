@@ -57,13 +57,16 @@ class SecondViewController: UIViewController {
     
     func showAlert(title : String , msg : String , delegete : AnyObject){
         
-        let alert = UIAlertView()
-        
-        alert.title = title
-        alert.message = msg
-        alert.addButton(withTitle: "OK")
-        alert.delegate = delegate as AnyObject?
-        alert.show()
+        //let alert = UIAlertView()
+        let alert = UIAlertController(title: title, message: msg, preferredStyle: .alert)
+        let ok = UIAlertAction(title: "OK", style: .default, handler: nil)
+
+        alert.addAction(ok)
+      //  self.delegate = delegate as AnyObject? as? PassData
+        self.present(alert, animated: true, completion: nil)
+        //alert.addButton(withTitle: "OK")
+      // alert.delegate = delegate as AnyObject?
+       // alert.show()
         
     }
     
