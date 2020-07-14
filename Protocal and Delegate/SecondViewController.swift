@@ -62,7 +62,7 @@ class SecondViewController: UIViewController {
         let ok = UIAlertAction(title: "OK", style: .default, handler: nil)
 
         alert.addAction(ok)
-      //  self.delegate = delegate as AnyObject? as? PassData
+       self.delegate = delegate as AnyObject? as? PassData
         self.present(alert, animated: true, completion: nil)
         //alert.addButton(withTitle: "OK")
       // alert.delegate = delegate as AnyObject?
